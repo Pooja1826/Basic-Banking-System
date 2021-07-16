@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <script src="script.js"></script>
+    <script src="js/jquery-min-jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<!------------------------------------------------NAVBAR-------------------------------------------------->
+<div class="container">    
+  <nav class="navbar navbar-inverse navbar-fixed-top " >
+    <div class="container-fluid " style="background-color: #ADEFD1FF">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#" style="color:#00203FFF " >TSF BANK</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav" >
+          <li><a href="home.html" style="color:#00203FFF">Home</a></li>
+          <li class="active"><a href="customer.html"style="color: #ADEFD1FF">Customer List</a></li>
+          <li><a href="transfermoney.html" style="color: #00203FFF">Transfer Money</a></li>
+          <li><a href="transactionlist.php" style="color: #00203FFF" >Transaction History</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<!----------------------------------------------------CUSROMER DETAILS------------------------------------------------>
+<div class="container-fluid ">
+<h4 class="well well-fluid" style="text-align: center;" id="ha">CUSTOMER DETAILS</h4>
+  </div>
+  <div >
+    <table class="table table-bordered table-striped table-responsive"  style="text-align: center">
+        <thead class="thead-dark" >
+            <tr > 
+          <th>SNO:</th>
+            <th >CUSTOMER NAME <span class=" glyphicon glyphicon-th-list"></span></th>
+            <th >EMAIL ID <span class=" glyphicon glyphicon-user"></span></th>
+            <th >BANK BALANCE<span class=" glyphicon glyphicon-usd"></span></th>
+            <th>TRANSFER MONEY <span class=" glyphicon glyphicon-refresh"></span></th>
+          </tr>
+        </thead>
+        <tbody >
+          <tr>
+            <th >1</th>
+            <td>Pooja</td>
+            <td>pooja1235@gmail.com</td>
+            <td>5000</td>
+            <td><a href="transfermoney.html" class="btn btn-primary" id="btn">Transfer</a></td>
+          </tr>
+          <tr>
+            <th>2</th>
+            <td>Ishika</td>
+            <td>jainishika@gmail.com</td>
+            <td>5600</td>
+            <td><a href="transfermoney.html" class="btn btn-primary" id="btn">Transfer</a></td>
+
+          </tr>
+          <tr>
+            <th>3</th>
+            <td>Jess</td>
+            <td>jess3567@gmail.com</td>
+            <td>30000</td>
+            <td><a href="transfermoney.html" class="btn btn-primary" id="btn">Transfer</a></td>
+          </tr>
+          <tr>
+            <th>4</th>
+            <td>Avneet</td>
+            <td>kauravneet1237@gmail.com</td>
+            <td>7000</td>
+            <td><a href="transfermoney.html" class="btn btn-primary" id="btn">Transfer</a></td>
+          </tr>
+          <tr>
+            <th>5</th>
+            <td>Sophia</td>
+            <td>sophia9931@gmail.com</td>
+            <td>10000</td>
+            <td><a href="transfermoney.html" class="btn btn-primary" id="btn">Transfer</a></td>
+          </tr>
+          <tr>
+            <th>6</th>
+            <td>Narendra</td>
+            <td>narendrasign3456@gmail.com</td>
+            <td>20000</td>
+            <td><a href="transfermoney.html" class="btn btn-primary" id="btn">Transfer</a></td>
+          </tr>
+          <tr>
+            <th>7</th>
+            <td>James</td>
+            <td>james4565@gmail.com</td>
+            <td>67000</td>
+            <td><a href="transfermoney.html" class="btn btn-primary" id="btn">Transfer</a></td>
+          </tr>
+          <tr>
+            <th>8</th>
+            <td>Priyanka</td>
+            <td>sharma3418@gmail.com</td>
+            <td>45900</td>
+            <td><a href="transfermoney.html" class="btn btn-primary" id="btn">Transfer</a></td>
+          </tr>
+          <tr>
+            <th>9</th>
+            <td>Jack</td>
+            <td>jack3487@gmail.com</td>
+            <td>7000</td>
+            <td><a href="transfermoney.html" class="btn btn-primary" id="btn">Transfer</a></td>
+          </tr>
+          <tr>
+            <th>10</th>
+            <td>Sushant</td>
+            <td>sushant6530@gmail.com</td>
+            <td>34000</td>
+            <td><a href="transfermoney.html" class="btn btn-primary" id="btn">Transfer</a></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+</body>
+</html>
